@@ -100,7 +100,7 @@ uint64_t GetConnectCaseByBinomialTheorem(uint64_t u64WestSite, uint64_t u64EastS
 		}
 		else
 		{
-			garu64ConnectCase[u64WestSite][u64EastSite - 1] = GetConnectCaseByBinomialThreorem(u64WestSite, u64EastSite - 1);
+			garu64ConnectCase[u64WestSite][u64EastSite - 1] = GetConnectCaseByBinomialTheorem(u64WestSite, u64EastSite - 1);
 			u64RetVal += garu64ConnectCase[u64WestSite][u64EastSite - 1];
 
 		}
@@ -111,7 +111,7 @@ uint64_t GetConnectCaseByBinomialTheorem(uint64_t u64WestSite, uint64_t u64EastS
 		}
 		else
 		{
-			garu64ConnectCase[u64WestSite - 1][u64EastSite - 1] = GetConnectCaseByBinomialThreorem(u64WestSite - 1, u64EastSite - 1);
+			garu64ConnectCase[u64WestSite - 1][u64EastSite - 1] = GetConnectCaseByBinomialTheorem(u64WestSite - 1, u64EastSite - 1);
 			u64RetVal += garu64ConnectCase[u64WestSite - 1][u64EastSite - 1];
 		}
 
