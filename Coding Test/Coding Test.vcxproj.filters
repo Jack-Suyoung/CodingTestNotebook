@@ -13,28 +13,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Baekjoon">
+      <UniqueIdentifier>{ba1dda4d-358a-450d-8d51-b9b5ee5f12b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\LeetCode">
+      <UniqueIdentifier>{2708a12b-4265-4cfb-a2c9-6f60a600f92a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Baekjoon_2753.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Baekjoon_2588.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Baekjoon_2884.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Baekjoon_2738.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Baekjoon_1008.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon_1010.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Baekjoon_1012.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon_2588.c">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon_2738.c">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon_2753.c">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="Baekjoon_2884.c">
+      <Filter>소스 파일\Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_1342.c">
+      <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
