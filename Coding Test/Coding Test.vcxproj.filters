@@ -51,6 +51,12 @@
     <ClCompile Include="LeetCode_383.c">
       <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_383_2.c">
+      <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_1941.c">
+      <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.h">
