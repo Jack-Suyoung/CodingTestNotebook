@@ -175,6 +175,7 @@
     <ClCompile Include="LeetCode_876.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="LeetCode_888.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.h" />
