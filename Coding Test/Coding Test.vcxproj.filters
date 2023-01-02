@@ -72,6 +72,9 @@
     <ClCompile Include="CodingTestMath.c">
       <Filter>소스 파일\math</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_2406.c">
+      <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.h">

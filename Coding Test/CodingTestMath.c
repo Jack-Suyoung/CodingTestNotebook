@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "CodingTestMathExport.h"
 
 // FInde Index at array of value, 
 // Binary Search in Iteration Method
@@ -28,4 +32,21 @@ int FindValueIndexBinarySearch(int* arr, int NumOfElement, int FindValue)
 	}
 
 	return RetVal;
+}
+
+
+
+int compare2Darray2Column(const void* pa, const void* pb) 
+{
+    const int* a = *(const int**)pa;
+    const int* b = *(const int**)pb;
+
+	if (a[0] == b[0])
+	{
+		return a[1] - b[1];
+	}
+	else
+	{
+		return a[0] - b[0];
+	}
 }
