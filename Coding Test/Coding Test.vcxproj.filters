@@ -90,6 +90,12 @@
     <ClCompile Include="LeetCode_1.cpp">
       <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_1668.cpp">
+      <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode_2331.cpp">
+      <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.h">
