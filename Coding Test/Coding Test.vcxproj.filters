@@ -114,6 +114,9 @@
     <ClCompile Include="LeetCode_2032.cpp">
       <Filter>소스 파일\LeetCode</Filter>
     </ClCompile>
+    <ClCompile Include="LeetCode_728.cpp">
+      <Filter>소스 파일\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="types.h">
